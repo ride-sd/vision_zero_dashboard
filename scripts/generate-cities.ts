@@ -1,9 +1,9 @@
-// Builds public/data/cities.json from the per-city data files, so cities are declared in one place only.
+// Builds public/api/cities.json from the per-city data files, so cities are declared in one place only.
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
 import type { CityData, CityIndexEntry } from "../src/types.ts";
 
-const dir = join(import.meta.dirname, "..", "public", "data");
+const dir = join(import.meta.dirname, "..", "public", "api");
 const files = readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "cities.json");
 
 const cities: CityIndexEntry[] = files.map((file) => {

@@ -7,7 +7,7 @@ function cityRoutes(): Plugin {
   const rewrite = (server: { middlewares: { use: (fn: (req: any, res: any, next: () => void) => void) => void } }) => {
     server.middlewares.use((req, _res, next) => {
       const slug = /^\/([a-z0-9_]+)\/?(\?.*)?$/.exec(req.url ?? "")?.[1];
-      if (slug && existsSync(resolve("public/data", `${slug}.json`))) req.url = "/dashboard.html";
+      if (slug && existsSync(resolve("public/api", `${slug}.json`))) req.url = "/dashboard.html";
       next();
     });
   };

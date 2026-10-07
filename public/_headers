@@ -1,0 +1,4 @@
+# Netlify / Cloudflare Pages: let other sites read the JSON API
+/api/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300

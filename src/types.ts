@@ -29,7 +29,7 @@ export interface CityData {
   districts: District[];
 }
 
-/** Entry in the generated public/data/cities.json */
+/** Entry in the generated public/api/cities.json */
 export interface CityIndexEntry {
   slug: string;
   name: string;

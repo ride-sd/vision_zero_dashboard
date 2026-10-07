@@ -141,7 +141,7 @@ async function main() {
     const config = await loadJson<Config>("config.json");
     const slug = location.pathname.split("/").filter(Boolean)[0] ?? "";
     if (!/^[a-z0-9_]+$/.test(slug)) throw new Error("Unknown city");
-    const city = await loadJson<CityData>(`data/${slug}.json`).catch(() => {
+    const city = await loadJson<CityData>(`api/${slug}.json`).catch(() => {
       throw new Error(`No data for "${slug}"`);
     });
     render(city, config.cta);

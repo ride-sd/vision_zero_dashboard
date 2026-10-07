@@ -27,7 +27,7 @@ async function main() {
   }
 
   const list = document.getElementById("cities")!;
-  const cities: CityIndexEntry[] = await (await fetch("/data/cities.json")).json();
+  const cities: CityIndexEntry[] = await (await fetch("/api/cities.json")).json();
   for (const c of cities) {
     const li = el("li");
     const a = el("a", "city");
