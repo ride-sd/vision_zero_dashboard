@@ -1,0 +1,164 @@
+{
+  "slug": "san_diego",
+  "city": "San Diego",
+  "year": 2024,
+  "districtName": "District",
+  "totals": {
+    "pedestrians": {
+      "killed": 99,
+      "injured": 1043
+    },
+    "cyclists": {
+      "killed": 14,
+      "injured": 932
+    }
+  },
+  "districtDataEstimated": true,
+  "districtDataNote": "Per-district numbers are placeholder estimates, distributed roughly evenly so they add up to the citywide totals. Replace with real data.",
+  "districts": [
+    {
+      "id": 1,
+      "name": "District 1",
+      "member": {
+        "name": "Joe LaCava",
+        "photo": "photos/san_diego/d1.jpg"
+      },
+      "pedestrians": {
+        "killed": 11,
+        "injured": 118
+      },
+      "cyclists": {
+        "killed": 1,
+        "injured": 98
+      }
+    },
+    {
+      "id": 2,
+      "name": "District 2",
+      "member": {
+        "name": "Jennifer Campbell",
+        "photo": "photos/san_diego/d2.jpg"
+      },
+      "pedestrians": {
+        "killed": 10,
+        "injured": 109
+      },
+      "cyclists": {
+        "killed": 2,
+        "injured": 112
+      }
+    },
+    {
+      "id": 3,
+      "name": "District 3",
+      "member": {
+        "name": "Stephen Whitburn",
+        "photo": "photos/san_diego/d3.jpg"
+      },
+      "pedestrians": {
+        "killed": 12,
+        "injured": 126
+      },
+      "cyclists": {
+        "killed": 2,
+        "injured": 107
+      }
+    },
+    {
+      "id": 4,
+      "name": "District 4",
+      "member": {
+        "name": "Henry Foster III",
+        "photo": "photos/san_diego/d4.jpg"
+      },
+      "pedestrians": {
+        "killed": 9,
+        "injured": 112
+      },
+      "cyclists": {
+        "killed": 1,
+        "injured": 95
+      }
+    },
+    {
+      "id": 5,
+      "name": "District 5",
+      "member": {
+        "name": "Marni von Wilpert",
+        "photo": "photos/san_diego/d5.jpg"
+      },
+      "pedestrians": {
+        "killed": 13,
+        "injured": 121
+      },
+      "cyclists": {
+        "killed": 2,
+        "injured": 101
+      }
+    },
+    {
+      "id": 6,
+      "name": "District 6",
+      "member": {
+        "name": "Kent Lee",
+        "photo": "photos/san_diego/d6.jpg"
+      },
+      "pedestrians": {
+        "killed": 10,
+        "injured": 104
+      },
+      "cyclists": {
+        "killed": 1,
+        "injured": 108
+      }
+    },
+    {
+      "id": 7,
+      "name": "District 7",
+      "member": {
+        "name": "Raul Campillo",
+        "photo": "photos/san_diego/d7.jpg"
+      },
+      "pedestrians": {
+        "killed": 11,
+        "injured": 117
+      },
+      "cyclists": {
+        "killed": 2,
+        "injured": 104
+      }
+    },
+    {
+      "id": 8,
+      "name": "District 8",
+      "member": {
+        "name": "Vivian Moreno",
+        "photo": "photos/san_diego/d8.jpg"
+      },
+      "pedestrians": {
+        "killed": 12,
+        "injured": 123
+      },
+      "cyclists": {
+        "killed": 2,
+        "injured": 110
+      }
+    },
+    {
+      "id": 9,
+      "name": "District 9",
+      "member": {
+        "name": "Sean Elo-Rivera",
+        "photo": "photos/san_diego/d9.jpg"
+      },
+      "pedestrians": {
+        "killed": 11,
+        "injured": 113
+      },
+      "cyclists": {
+        "killed": 1,
+        "injured": 97
+      }
+    }
+  ]
+}

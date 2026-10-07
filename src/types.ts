@@ -1,0 +1,45 @@
+export interface Counts {
+  killed: number;
+  injured: number;
+}
+
+export interface CouncilMember {
+  name: string;
+  photo?: string;
+  /** Overrides the global call-to-action URL for this member. */
+  actionUrl?: string;
+}
+
+export interface District {
+  id: number;
+  name: string;
+  member: CouncilMember;
+  pedestrians: Counts;
+  cyclists: Counts;
+}
+
+export interface CityData {
+  slug: string;
+  city: string;
+  year: number;
+  districtName: string;
+  totals: { pedestrians: Counts; cyclists: Counts };
+  districtDataEstimated?: boolean;
+  districtDataNote?: string;
+  districts: District[];
+}
+
+/** Entry in the generated public/data/cities.json */
+export interface CityIndexEntry {
+  slug: string;
+  name: string;
+  year: number;
+  killed: number;
+  injured: number;
+}
+
+export interface Config {
+  /** City that `/` forwards to in production builds. */
+  defaultCity?: string;
+  cta: { label: string; url: string };
+}

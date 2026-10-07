@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vision Zero Dashboard</title>
+  </head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Vision Zero</p>
+      <h1 id="title">Traffic deaths &amp; injuries</h1>
+      <p class="sub" id="subtitle"></p>
+    </header>
+
+    <section class="totals" aria-label="Citywide totals">
+      <article class="total total--killed">
+        <h2>People killed</h2>
+        <p class="total__num" id="total-killed" data-tip>–</p>
+      </article>
+      <article class="total total--injured">
+        <h2>People injured</h2>
+        <p class="total__num" id="total-injured" data-tip>–</p>
+      </article>
+    </section>
+
+    <section class="districts" aria-labelledby="districts-h">
+      <div class="districts__head">
+        <h2 id="districts-h">By council district</h2>
+        <ul class="legend" aria-hidden="true">
+          <li><span class="swatch swatch--ped"></span>Pedestrians</li>
+          <li><span class="swatch swatch--cyc"></span>Cyclists</li>
+        </ul>
+      </div>
+      <p class="note" id="estimate-note" hidden></p>
+      <ol class="rows" id="rows"></ol>
+    </section>
+
+    <p class="error" id="error" hidden></p>
+  </main>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
