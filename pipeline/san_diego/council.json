@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "member": {
+      "name": "Joe LaCava",
+      "photo": "photos/san_diego/d1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "member": {
+      "name": "Jennifer Campbell",
+      "photo": "photos/san_diego/d2.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "member": {
+      "name": "Stephen Whitburn",
+      "photo": "photos/san_diego/d3.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "member": {
+      "name": "Henry Foster III",
+      "photo": "photos/san_diego/d4.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "member": {
+      "name": "Marni von Wilpert",
+      "photo": "photos/san_diego/d5.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "member": {
+      "name": "Kent Lee",
+      "photo": "photos/san_diego/d6.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "member": {
+      "name": "Raul Campillo",
+      "photo": "photos/san_diego/d7.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "member": {
+      "name": "Vivian Moreno",
+      "photo": "photos/san_diego/d8.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "member": {
+      "name": "Sean Elo-Rivera",
+      "photo": "photos/san_diego/d9.jpg"
+    }
+  }
+]

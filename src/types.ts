@@ -22,6 +22,9 @@ export interface CityData {
   slug: string;
   city: string;
   year: number;
+  /** Date (YYYY-MM-DD) of the most recent record in the source data. */
+  asOf?: string;
+  source?: { name: string; url: string };
   districtName: string;
   totals: { pedestrians: Counts; cyclists: Counts };
   districtDataEstimated?: boolean;

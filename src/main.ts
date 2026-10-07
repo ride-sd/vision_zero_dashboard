@@ -91,10 +91,26 @@ function metric(kind: "killed" | "injured", label: string, ped: number, cyc: num
   return wrap;
 }
 
+/** "2024", or "2026 so far (through Oct 5)" when the data stops before the end of the year. */
+function period(city: CityData): string {
+  if (!city.asOf || city.asOf >= `${city.year}-12-31`) return String(city.year);
+  const through = new Date(`${city.asOf}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  return `${city.year} so far (through ${through})`;
+}
+
 function render(city: CityData, cta: Config["cta"]) {
   document.title = `Vision Zero ${city.city}`;
   $("title").textContent = `${city.city}: traffic deaths & injuries`;
-  $("subtitle").textContent = `Pedestrians and cyclists, ${city.year}`;
+  $("subtitle").textContent = `Pedestrians and cyclists, ${period(city)}`;
+
+  if (city.source) {
+    const link = el("a", "", city.source.name);
+    link.href = city.source.url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    $("source").replaceChildren("Source: ", link);
+    $("source").hidden = false;
+  }
 
   const t = city.totals;
   for (const [id, key] of [["total-killed", "killed"], ["total-injured", "injured"]] as const) {
