@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "db:san_diego": "tsx pipeline/san_diego-db.ts",
     "update:san_diego": "tsx pipeline/san_diego.ts",
     "build:crosswalk:san_diego": "tsx pipeline/build-san-diego-crosswalk.ts",
     "generate:cities": "tsx scripts/generate-cities.ts",
