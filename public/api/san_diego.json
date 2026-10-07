@@ -1,20 +1,25 @@
 {
   "slug": "san_diego",
   "city": "San Diego",
-  "year": 2024,
+  "year": 2026,
+  "asOf": "2026-10-05",
+  "source": {
+    "name": "San Diego Police Department traffic collisions (data.sandiego.gov)",
+    "url": "https://data.sandiego.gov/datasets/police-collisions-details/"
+  },
   "districtName": "District",
   "totals": {
     "pedestrians": {
-      "killed": 99,
-      "injured": 1043
+      "killed": 15,
+      "injured": 427
     },
     "cyclists": {
-      "killed": 14,
-      "injured": 932
+      "killed": 5,
+      "injured": 313
     }
   },
   "districtDataEstimated": true,
-  "districtDataNote": "Per-district numbers are placeholder estimates, distributed roughly evenly so they add up to the citywide totals. Replace with real data.",
+  "districtDataNote": "SDPD reports crashes by police beat, not council district. Beats that straddle district lines are split by area, so district numbers are estimates. Freeway crashes (handled by CHP) are not included.",
   "districts": [
     {
       "id": 1,
@@ -24,12 +29,12 @@
         "photo": "photos/san_diego/d1.jpg"
       },
       "pedestrians": {
-        "killed": 11,
-        "injured": 118
+        "killed": 2,
+        "injured": 44
       },
       "cyclists": {
-        "killed": 1,
-        "injured": 98
+        "killed": 2,
+        "injured": 48
       }
     },
     {
@@ -40,12 +45,12 @@
         "photo": "photos/san_diego/d2.jpg"
       },
       "pedestrians": {
-        "killed": 10,
-        "injured": 109
+        "killed": 3,
+        "injured": 60
       },
       "cyclists": {
-        "killed": 2,
-        "injured": 112
+        "killed": 1,
+        "injured": 57
       }
     },
     {
@@ -56,12 +61,12 @@
         "photo": "photos/san_diego/d3.jpg"
       },
       "pedestrians": {
-        "killed": 12,
-        "injured": 126
+        "killed": 3,
+        "injured": 93
       },
       "cyclists": {
-        "killed": 2,
-        "injured": 107
+        "killed": 0,
+        "injured": 56
       }
     },
     {
@@ -72,12 +77,12 @@
         "photo": "photos/san_diego/d4.jpg"
       },
       "pedestrians": {
-        "killed": 9,
-        "injured": 112
+        "killed": 1,
+        "injured": 25
       },
       "cyclists": {
-        "killed": 1,
-        "injured": 95
+        "killed": 0,
+        "injured": 18
       }
     },
     {
@@ -88,12 +93,12 @@
         "photo": "photos/san_diego/d5.jpg"
       },
       "pedestrians": {
-        "killed": 13,
-        "injured": 121
+        "killed": 1,
+        "injured": 19
       },
       "cyclists": {
-        "killed": 2,
-        "injured": 101
+        "killed": 0,
+        "injured": 17
       }
     },
     {
@@ -104,12 +109,12 @@
         "photo": "photos/san_diego/d6.jpg"
       },
       "pedestrians": {
-        "killed": 10,
-        "injured": 104
+        "killed": 3,
+        "injured": 38
       },
       "cyclists": {
-        "killed": 1,
-        "injured": 108
+        "killed": 0,
+        "injured": 27
       }
     },
     {
@@ -120,12 +125,12 @@
         "photo": "photos/san_diego/d7.jpg"
       },
       "pedestrians": {
-        "killed": 11,
-        "injured": 117
+        "killed": 0,
+        "injured": 25
       },
       "cyclists": {
-        "killed": 2,
-        "injured": 104
+        "killed": 0,
+        "injured": 20
       }
     },
     {
@@ -136,12 +141,12 @@
         "photo": "photos/san_diego/d8.jpg"
       },
       "pedestrians": {
-        "killed": 12,
-        "injured": 123
+        "killed": 0,
+        "injured": 50
       },
       "cyclists": {
         "killed": 2,
-        "injured": 110
+        "injured": 34
       }
     },
     {
@@ -152,12 +157,12 @@
         "photo": "photos/san_diego/d9.jpg"
       },
       "pedestrians": {
-        "killed": 11,
-        "injured": 113
+        "killed": 2,
+        "injured": 73
       },
       "cyclists": {
-        "killed": 1,
-        "injured": 97
+        "killed": 0,
+        "injured": 36
       }
     }
   ]
