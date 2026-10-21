@@ -10,12 +10,12 @@
   "districtName": "District",
   "totals": {
     "pedestrians": {
-      "killed": 15,
-      "injured": 453
+      "killed": 16,
+      "injured": 455
     },
     "cyclists": {
       "killed": 5,
-      "injured": 326
+      "injured": 328
     }
   },
   "districtDataEstimated": true,
@@ -46,11 +46,11 @@
       },
       "pedestrians": {
         "killed": 3,
-        "injured": 60
+        "injured": 61
       },
       "cyclists": {
         "killed": 1,
-        "injured": 59
+        "injured": 60
       }
     },
     {
@@ -61,12 +61,12 @@
         "photo": "photos/san_diego/d3.jpg"
       },
       "pedestrians": {
-        "killed": 3,
-        "injured": 99
+        "killed": 4,
+        "injured": 100
       },
       "cyclists": {
         "killed": 0,
-        "injured": 57
+        "injured": 58
       }
     },
     {
