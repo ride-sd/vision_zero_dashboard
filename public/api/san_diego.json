@@ -2,7 +2,7 @@
   "slug": "san_diego",
   "city": "San Diego",
   "year": 2026,
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "source": {
     "name": "San Diego Police Department traffic collisions (data.sandiego.gov)",
     "url": "https://data.sandiego.gov/datasets/police-collisions-details/"
