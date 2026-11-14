@@ -15,7 +15,7 @@
     },
     "cyclists": {
       "killed": 5,
-      "injured": 350
+      "injured": 351
     }
   },
   "districtDataEstimated": true,
@@ -146,7 +146,7 @@
       },
       "cyclists": {
         "killed": 2,
-        "injured": 36
+        "injured": 37
       }
     },
     {
