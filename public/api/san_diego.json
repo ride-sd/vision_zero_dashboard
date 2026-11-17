@@ -11,11 +11,11 @@
   "totals": {
     "pedestrians": {
       "killed": 19,
-      "injured": 497
+      "injured": 498
     },
     "cyclists": {
-      "killed": 5,
-      "injured": 353
+      "killed": 6,
+      "injured": 354
     }
   },
   "districtDataEstimated": true,
@@ -30,7 +30,7 @@
       },
       "pedestrians": {
         "killed": 2,
-        "injured": 47
+        "injured": 48
       },
       "cyclists": {
         "killed": 2,
@@ -50,7 +50,7 @@
       },
       "cyclists": {
         "killed": 1,
-        "injured": 66
+        "injured": 67
       }
     },
     {
@@ -145,7 +145,7 @@
         "injured": 54
       },
       "cyclists": {
-        "killed": 2,
+        "killed": 3,
         "injured": 37
       }
     },
