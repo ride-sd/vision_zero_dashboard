@@ -2,7 +2,7 @@
   "slug": "san_diego",
   "city": "San Diego",
   "year": 2026,
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-19",
   "source": {
     "name": "San Diego Police Department traffic collisions (data.sandiego.gov)",
     "url": "https://data.sandiego.gov/datasets/police-collisions-details/"
@@ -11,11 +11,11 @@
   "totals": {
     "pedestrians": {
       "killed": 19,
-      "injured": 505
+      "injured": 509
     },
     "cyclists": {
       "killed": 6,
-      "injured": 357
+      "injured": 358
     }
   },
   "districtDataEstimated": true,
@@ -46,7 +46,7 @@
       },
       "pedestrians": {
         "killed": 3,
-        "injured": 66
+        "injured": 68
       },
       "cyclists": {
         "killed": 1,
@@ -62,7 +62,7 @@
       },
       "pedestrians": {
         "killed": 5,
-        "injured": 112
+        "injured": 113
       },
       "cyclists": {
         "killed": 0,
@@ -130,7 +130,7 @@
       },
       "cyclists": {
         "killed": 0,
-        "injured": 21
+        "injured": 22
       }
     },
     {
@@ -158,7 +158,7 @@
       },
       "pedestrians": {
         "killed": 3,
-        "injured": 91
+        "injured": 92
       },
       "cyclists": {
         "killed": 0,
